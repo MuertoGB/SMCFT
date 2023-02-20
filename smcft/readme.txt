@@ -18,4 +18,4 @@ If 'startup.nsh' does not run, you must manually find the filesystem:
  - SSD is present, try 'fs7:', then use the 'ls' command.
 
 If you encounter an issue, or require help, open a ticket on the Github page:
-https://github.com/MuertoGB/SMCTool/issues
+https://github.com/MuertoGB/SMCFT/issues
