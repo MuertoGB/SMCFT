@@ -8,5 +8,5 @@
 @echo " Mac Mini Menu  -  Type: macmini.nsh"
 @echo " iMac  Menu     -  Type: imac.nsh"
 @echo ""
-@echo "Type 'reset -s', then press enter to shut down."
+@echo "Type 'exit', then press enter to leave the shell."
 @echo ""
