@@ -68,7 +68,7 @@ Each System Management Controller is specifically programmed for it's counterpar
 No problem, just type the correct board number and the correct payload will be flashed. If you restart, or power off after an incorrect payload flash you may brick the device. If a system is somehow rendered 'bricked', and cannot get to the boot menu, you must replace the SMC again. You can always put the incorrectly flashed SMC aside for future use on a board it was 'accidentally' programmed for.
 
 **`startup.nsh` did not run:**\
-In this case, you must manually find the USB filesystem. With the internal storage drive present, the filesystem is generally found at `fs7:`, in the shell type `fs7:`, then press return. With the internal storage drive removed, the filesystem is generally found at `fs0:`, in the shell type `fs0:`, then press return. A directory file list can be viewed by typing `ls`, the pressing return.
+In this case, you must manually find the USB filesystem. With the internal storage drive present, the filesystem is generally found at `fs7:`, in the shell type `fs7:`, then press return. With the internal storage drive removed, the filesystem is generally found at `fs0:`, in the shell type `fs0:`, then press return. A directory file list can be viewed by typing `ls`, then pressing return.
 
 Once you find the filesystem with 'startup.nsh', you can then run the file.
 
