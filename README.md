@@ -52,7 +52,7 @@ Once the memory stick is ready, you can do any of the following:
 1. Remove the internal storage drive.
 2. If you have a portable device, plug in the power adapter.
 3. Insert your USB stick, then power on the device whilst holding `Option ⌥`.
-4. Load into SMCTFT from the boot menu and let 'startup.nsh' run.
+4. Load into SMCFT from the boot menu and let 'startup.nsh' run.
 5. Enter the platform type from the menu, then press return.
 6. Enter the motherboard model from the menu, then press return. The SMC will now be flashed.
 7. Type `exit` to leave the shell, or power down the device to complete the process.
