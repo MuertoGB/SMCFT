@@ -2,10 +2,7 @@
 <h1 align="center">
 <img width="200" src="resource/img/icon256.png" alt="SMCFT Logo">
 <br>
-SMC Flash Tool
-<h3 align="center">
-Formerly known as <a href="https://github.com/MuertoGB/SMCTool">SMCTool</a>.
-</h3>
+SMC Flash Tool, formerly <a href="https://github.com/MuertoGB/SMCTool">SMCTool</a>.
 </h1>
 
 <h4 align="center">Making SMC flashing quicker and easier.</h4>
