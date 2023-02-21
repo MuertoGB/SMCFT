@@ -1,9 +1,9 @@
 
 ## Compatibility Information
 
-This information is still a work in progress, I only have so many machines at my disposal to verify board-ids and perform a test flash. If a model is marked as verified, this means it was successfully flashed with SMCFT. If a model is not in the below list, it isn't currently supported.
+This information is still a work in progress, I've only so many machines at my disposal to verify board-ids and perform a test flash. If a model is marked as verified, this means it was successfully flashed with SMCFT. If a model is not in the below list, it isn't currently supported.
 
-If you'd like to verify a successful SMC flash, please [open an issue](https://github.com/MuertoGB/SMCFT/issues). Please include the following information:
+If you'd like to verify a successful SMC flash, please [open an issue](https://github.com/MuertoGB/SMCFT/issues). Make include the following information:
 
 `Model Identifier, SMC Version, EMC Number, Board Model, Graphics Card (Model, VRAM), board-id.`
 ```bash
