@@ -1,16 +1,21 @@
+
 ## Compatibility Information
 
 This information is still a work in progress, I only have so many machines at my disposal to verify board-ids and perform a test flash. If a model is marked as verified, this means it was successfully flashed with SMCTool. If a model is not in the below list, it isn't currently supported.
 
 If you'd like to verify a successful SMC flash, please [open an issue](https://github.com/MuertoGB/SMCFT/issues). Please include the following information:
 
-> Model Number (e.g. A1502)\
-> EMC Number (e.g. EMC 2835)\
-> Board Model (e.g. 820-4924)\
-> Board ID `ioreg -l | grep -i board-id`\
-> Graphics Type (e.g. iGPU, dGPU)\
-> GPU Model (e.g. Intel HD 6000)\
-> Proof of a successful flash
+`Model Identifier, SMC Version, EMC Number, Board Model, Graphics Card (Model, VRAM), board-id.`
+```bash
+system_profiler SPHardwareDataType | grep "Model Identifier"
+system_profiler SPHardwareDataType | grep "SMC Version"
+system_profiler SPDisplaysDataType | grep "Chipset Model"
+system_profiler SPDisplaysDataType | grep "VRAM"
+ioreg -l | grep -i board-id
+
+EMC Number found on Chassis, e.g. 'EMC2632'.
+Board model found on Logic board, e.g. '820-3437'.
+```
 
 ---
 
