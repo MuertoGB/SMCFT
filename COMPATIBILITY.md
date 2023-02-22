@@ -29,7 +29,7 @@ Step 3. Head to offset `0x1064`, the 8-byte board-id should be available.
 
 ---
 
-<h4 align="center">Platform Navigation</h4>
+<h4 align="center">Compatible Devices</h4>
 <p align="center">
   <a href="#macbook-air">MacBook Air</a> •
   <a href="#macbook-pro">MacBook Pro</a> •
