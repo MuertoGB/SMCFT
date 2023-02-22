@@ -17,7 +17,9 @@ EMC Number found on Chassis, e.g. 'EMC2632'.
 Board model found on Logic board, e.g. '820-3437'.
 ```
 
-> ℹ If you're unsure at any point of your board-id, you can do the following
+**If you're unsure at any point of the board-id, you can do the following:-**
+
+> ℹ This information doesn't seem to be available within pre-2012 EFIROMs.
 
 Step 1. Dump the SPIROM contents.\
 Step 2. Open the dump in a hex editor.\
