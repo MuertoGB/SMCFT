@@ -9,7 +9,7 @@ namespace MacTools.EFI
     class ROMHelper
     {
         const int BID_OFFSET = 0x1060;   // Offset in PDR region, actual board-id is at 0x1064h (BID_OFFSET + BID_POS).
-        const int BID_DATA_LEN = 0x12;   // Lenth of the data we want.
+        const int BID_DATA_LEN = 0x12;   // Length of the data we want.
         const int BID_POS = 0x4;         // Position of board-id.
         const int BID_LEN = 0x8;         // Length of board-id (8 bytes).
 
