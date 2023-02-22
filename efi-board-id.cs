@@ -1,3 +1,6 @@
+// David R, 22.02.2022
+// C# code to pull a Mac board-id from a BIOS dump on compatible ROMs.
+
 using System;
 using System.IO;
 
