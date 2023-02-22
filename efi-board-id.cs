@@ -1,3 +1,6 @@
+// David R, 22.02.2022
+// C# code to pull a Mac board-id from compatible EFIROM dumps.
+
 using System;
 using System.IO;
 
@@ -22,9 +25,12 @@ namespace MacTools.EFI
                         // Found magic bytes, return the board-id.
                         return string.Concat("Mac-", BitConverter.ToString(bIdBytes, 4, 8).Replace("-", ""));
                     }
+                    else
+                    {
+                        return "Magic not found.";
+                    }
                 }
             }
-            return "Magic not found, better luck next time.";
         }
     }
 }
