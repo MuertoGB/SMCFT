@@ -25,9 +25,7 @@ Step 1. Dump the SPIROM contents.\
 Step 2. Open the dump in a hex editor.\
 Step 3. Head to offset `0x1064`, the 8-byte board-id should be available.
 
-<kbd>
 ![](resource/img/efi-board-id.png)
-</kbd>
 
 ---
 
