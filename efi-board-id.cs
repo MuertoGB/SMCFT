@@ -1,4 +1,4 @@
-// David R, 22.02.2022
+// David R, 22.02.2023
 // C# code to pull a Mac board-id from compatible EFIROM dumps.
 
 using System;
