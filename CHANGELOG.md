@@ -18,15 +18,18 @@
   - Added readme.txt
   - Moved platform types into sub-menus
   - Script optimisation
-  - Support Board: 820-3482
-  - Support Board: 820-3588
-  - Support Board: 820-4668
-  - Support Board: 820-3478
-  - Support Board: 820-3481
-  - Support Board: 820-4652
-  - Support Board: 820-5029
-  - Support Board: 820-00430
-  - Support Board: 820-00431
+  - Support Board: 820-3482  (iMac)
+  - Support Board: 820-3588  (iMac)
+  - Support Board: 820-4668  (iMac)
+  - Support Board: 820-3478  (iMac)
+  - Support Board: 820-3481  (iMac)
+  - Support Board: 820-4652  (iMac)
+  - Support Board: 820-5029  (iMac)
+  - Support Board: 820-00134 (iMac)
+  - Support Board: 820-00291 (iMac)
+  - Support Board: 820-00292 (iMac)
+  - Support Board: 820-00430 (iMac)
+  - Support Board: 820-00431 (iMac)
 ```
 
 #### V1.0.7
