@@ -27,7 +27,7 @@ Step 3. Head to offset `0x1064`, the 8-byte board-id should be available.
 
 <kbd><img width="600" src="resource/img/efi-board-id.png" alt="efi-board-id"></kbd>
 
-> ℹ This data doesn't seem to be available within pre-2012 EFIROMs.
+> ⚠ This data doesn't seem to be available within pre-2012 EFIROMs.
 
 ---
 
