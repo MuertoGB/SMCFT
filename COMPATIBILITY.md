@@ -3,7 +3,7 @@
 
 This information is still a work in progress, I've only so many machines at my disposal to verify board-ids and perform a test flash. If a model is marked as verified, this means it was successfully flashed with SMCFT. If a model is not in the below list, it isn't currently supported.
 
-If you'd like to verify a successful SMC flash, please [open an issue](https://github.com/MuertoGB/SMCFT/issues). Make include the following information:
+If you'd like to verify a successful SMC flash, please [open an issue](https://github.com/MuertoGB/SMCFT/issues). Make sure to include the following information:
 
 `Model Identifier, SMC Version, EMC Number, Board Model, Graphics Card (Model, VRAM), board-id.`
 ```bash
@@ -19,7 +19,7 @@ Board model found on Logic board, e.g. '820-3437'.
 
 **If you're unsure at any point of the board-id, you can do the following:-**
 
-> ℹ This information doesn't seem to be available within pre-2012 EFIROMs.
+> ℹ This data doesn't seem to be available within pre-2012 EFIROMs.
 
 Step 1. Dump the SPIROM contents.\
 Step 2. Open the dump in a hex editor.\
@@ -95,8 +95,6 @@ MacBookPro11,1 (13-inch Late 2013, Mid 2014), EMC 2678, EMC 2875
  - Firmware:     2.16f68
  - Flash using:  820-3476.nsh
 ```
-
-> 
 
 ```
 MacBookPro11,1 (13-inch Late 2013, Mid 2014), EMC 2678, EMC 2875 (4GB RAM)
