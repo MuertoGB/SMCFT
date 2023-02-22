@@ -2,9 +2,9 @@ echo -off
 
 cls
 
-echo "MacBookPro11,4, iGPU"
-echo "Mac-06F11FD93F0323C5"
-echo "Flashing SMC with 820-00138 v2.29f24 firmware..."
+echo "Model: MacBookPro11,4, iGPU"
+echo "Board: 820-00138"
+echo "Flashing SMC with Mac-06F11FD93F0323C5 v2.29f24 firmware..."
 
 smcutil.efi -force -norestart -LoadUpdate payloads\Mac-06F11FD93F0323C5\flasher_update.smc
 smcutil.efi -force -norestart -LoadBase payloads\Mac-06F11FD93F0323C5\flasher_base.smc
