@@ -14,7 +14,6 @@ namespace MacTools.EFI
             {
                 using (BinaryReader binaryReader = new BinaryReader(fileStream))
                 {
-                    long len = fileStream.Length;
                     byte[] bIdBytes = new byte[12];
                     binaryReader.BaseStream.Position = 0x1060;
                     bIdBytes = binaryReader.ReadBytes(0x12);
