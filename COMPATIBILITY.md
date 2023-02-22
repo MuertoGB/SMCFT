@@ -17,6 +17,14 @@ EMC Number found on Chassis, e.g. 'EMC2632'.
 Board model found on Logic board, e.g. '820-3437'.
 ```
 
+> ℹ If you're unsure at any point of your board-id, you can do the following
+
+Step 1. Dump the SPIROM contents.\
+Step 2. Open the dump in a hex editor.\
+Step 3. Head to offset `0x1064`, the 8-byte board-id should be available.
+
+![](resource/img/efi-board-id.png)
+
 ---
 
 <h4 align="center">Platform Navigation</h4>
@@ -259,4 +267,33 @@ iMac15,1 (27-inch, Late-2014, 4GB VRAM), EMC 2806
  - Flash using:  820-5029.nsh
  ```
 
+> ℹ 820-00291/00292 payloads are identical. Unsure why there was a board revision as they both have 2GB VRAM and M380/M390.
+
+```
+iMac17,1 (27-inch, Late-2015, 2GB VRAM), EMC 2834
+
+ - Board Model:  820-00291
+ - Board-ID:     Mac-65CE76090165799A
+ - Firmware:     v2.33f12
+ - Flash using:  820-00291.nsh
+```
+ 
+```
+iMac17,1 (27-inch, Late-2015, 2GB VRAM), EMC 2834
+
+ - Board Model:  820-00292
+ - Board-ID:     Mac-DB15BD556843C820
+ - Firmware:     v2.33f12
+ - Flash using:  820-00292.nsh
+```
+
+```
+iMac17,1 (27-inch, Late-2015, 4GB VRAM), EMC ?2834?
+
+ - Board Model:  820-00134
+ - Board-ID:     Mac-B809C3757DA9BB8D
+ - Firmware:     v2.34f3
+ - Flash using:  820-00134.nsh
+```
+ 
 ---
