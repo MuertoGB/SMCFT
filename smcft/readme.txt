@@ -1,5 +1,5 @@
 To Flash the SMC:
- 1. Remove the internal storage drive.
+ 1. Remove the internal storage drive if possible.
  2. If you have a portable device, plug in the power adapter.
  3. Insert your USB stick, then power on the device whilst holding Option ⌥.
  4. Load into SMCTool from the boot menu and let ‘startup.nsh’ run.
@@ -17,5 +17,5 @@ If 'startup.nsh' does not run, you must manually find the filesystem:
  - SSD is removed, try 'fs0:', then use the 'ls' command.
  - SSD is present, try 'fs7:', then use the 'ls' command.
 
-If you encounter an issue, or require help, open a ticket on the Github page:
+If you encounter an issue, or require help, open an issue on the Github page:
 https://github.com/MuertoGB/SMCFT/issues

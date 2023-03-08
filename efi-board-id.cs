@@ -1,5 +1,6 @@
 // ROMHelper.cs - David R - 22.02.2023
 // CSharp.NET code to pull a Mac board-id from compatible EFIROM dumps.
+// Released under the GNU GPL V3.0.
 
 using System;
 using System.IO;

@@ -37,5 +37,3 @@ Once the memory stick is ready, you can do any of the following:
 
 ---
 
-MacOS an Linux instructions coming soon.
-
