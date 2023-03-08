@@ -7,4 +7,5 @@ smcutil.efi -v
 @echo "Nobluesky."
 @echo ""
 @echo "Process complete:"
-@echo "Type 'reset -w' to reboot, 'reset -s' to power off."
+@echo "Type 'reset -w' to reboot, 'reset -s' to power off,"
+@echo "'exit' to leave the shell."
