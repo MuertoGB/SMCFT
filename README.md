@@ -28,8 +28,8 @@ This bootable shell is used to program Mac LM4F (Stellaris) System Management Co
 
 | Version| Release Date| Latest|
 |--------|-------------|--------|
-| [V1.1.0](https://github.com/MuertoGB/SMCFT/releases/tag/v1.1.0)|Not Set         |`Yes`|
-| [V1.0.7](https://github.com/MuertoGB/SMCTool/releases/tag/v1.0.7)|18th Feb 2023   |`No` |
+| [V1.1.0](https://github.com/MuertoGB/SMCFT/releases/tag/v1.1.0)|28th Mar 2023  |`Yes`|
+| [V1.0.7](https://github.com/MuertoGB/SMCTool/releases/tag/v1.0.7)|18th Feb 2023 |`No` |
 
 > 📔 See the full [Changelog](CHANGELOG.md).
 
