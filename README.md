@@ -20,8 +20,6 @@ SMC Flash Tool, formerly <a href="https://github.com/MuertoGB/SMCTool">SMCTool</
 
 ## About
 
-> ❗ This version is currently unfinished, you should head back to SMCTool unless you absolutely know what you're doing.
-
 This bootable shell is used to program Mac LM4F (Stellaris) System Management Controllers (The SMC) in EFI mode with correct stock firmware, this enables technicians to replace faulty SMCs with a donor from non-matching logic boards. SMCFT not only saves time, but money, as a specific donor SMC isn't necessary to have 'on hand'; simply take a donor SMC* from another board, replace it, then flash with this handy bootable software.
 
 > ⚠ *Currently, a full list of SMC boot compatibility between boards has not been established, I recommend you keep the platform and GPU type the same (MacBook, iMac, Mac Mini), (iGPU, dGPU).
