@@ -1,6 +1,6 @@
 ## Finding a device board-id
 
-Sometimes, a technician may not be aware, or unsure of a device board-id. Here are some methods of retrieving and confirming said data. You may then if your device is supported in [COMPATIBILITY.MD](COMPTABILITY.md).
+Sometimes, a technician may not be aware, or unsure of a device board-id. Here are some methods of retrieving and confirming said data. You may then if your device is supported in [COMPATIBILITY.MD](COMPATIBILITY.md).
 
 ---
 ### Using smbinfo.efi:-
