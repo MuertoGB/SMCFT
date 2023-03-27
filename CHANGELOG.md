@@ -15,6 +15,7 @@
 
 ```
   - File restructuring
+  - Added smbinfo.efi which displays some smbios information
   - Added readme.txt
   - Moved platform types into sub-menus
   - Script optimisation

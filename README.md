@@ -49,13 +49,14 @@ Once the memory stick is ready, you can do any of the following:
 
 ## Flashing An SMC
 
-1. Remove the internal storage drive.
-2. If you have a portable device, plug in the power adapter.
-3. Insert your USB stick, then power on the device whilst holding `Option ⌥`.
-4. Load into SMCFT from the boot menu and let 'startup.nsh' run.
-5. Enter the platform type from the menu, then press return.
-6. Enter the motherboard model from the menu, then press return. The SMC will now be flashed.
-7. Type `exit` to leave the shell, or power down the device to complete the process.
+1. Determine your [board-id](BOARD-ID.md) if necessary.
+2. Remove the internal storage drive.
+3. If you have a portable device, plug in the power adapter.
+4. Insert your USB stick, then power on the device whilst holding `Option ⌥`.
+5. Load into SMCFT from the boot menu and let 'startup.nsh' run.
+6. Enter the platform type from the menu, then press return.
+7. Enter the motherboard model from the menu, then press return. The SMC will now be flashed.
+8. Type `exit` to leave the shell, or power down the device to complete the process.
 
 > ⚠ You may need to perform an [NVRAM reset](https://support.apple.com/en-mide/HT201255) after flashing an SMC.
 
@@ -105,6 +106,8 @@ I'm not responsible if you do something wrong, if you're here I expect you to kn
 This is **not** a magical 'fix my Mac' tool, it has a specific purpose, which is flashing correct payloads to a System Management Controller with incorrect firmware.
 
 > ❗ **Do not** flash your SMC if you have no reason to.
+
+smbinfo.efi source code will be available in due course. Made in VS2019 with MSVC, based on EDK2 by TianoCore.
 
 ## Acknowledgements
 

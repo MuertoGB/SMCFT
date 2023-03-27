@@ -17,18 +17,6 @@ EMC Number found on Chassis, e.g. 'EMC2632'.
 Board model found on Logic board, e.g. '820-3437'.
 ```
 
-## Board ID from EFIROM
-
-**If you're unsure at any point of the board-id, you can do the following:-**
-
-Step 1. Dump the SPIROM contents.\
-Step 2. Open the dump in a hex editor.\
-Step 3. Head to offset `0x1064`, the 8-byte board-id should be available.
-
-<kbd><img width="600" src="resource/img/efi-board-id.png" alt="efi-board-id"></kbd>
-
-> ⚠ This data doesn't seem to be available within pre-2012 EFIROMs.
-
 ---
 
 <h4 align="center">Compatible Devices</h4>
