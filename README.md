@@ -122,6 +122,6 @@ smbinfo.efi source code will be available in due course. Made in VS2019 with MSV
 
 ## Donate
 
-<a href="https://www.buymeacoffee.com/Muerto"><img width="160" src="https://uc80e5ba3058c2d15b2a77972a8b.previews.dropboxusercontent.com/p/thumb/AB3kH9xWv0HNDaNssaDwAy-BRKj5wIPBPDTCd8qHqiELl8Axn7VtqejyWsfq_mRMXllBf9caisAAZnGVMn-Tq-jMGBs_ytCunZ9Jnz4ujypEwAtP97ASEq5zyiMwWBBiYNrxOsvihqx7EvFwHVhTOLESIMNWrhF76BtkxHBDp8tvQWKhKligd_i_kIR7JQ8SCSbWNJQpLAyTrGW3SydNB_WVykoL5kumTdvhV7FTUmrZKKoa7TecA-eSDWKwxJbD6jZkG5T9-uaOtr3wocygm9k6y5UWfWui-UqnmlHp8OLLJmd0P3ukZx_gOc8rSNhcaOW5q-WtS5RVdTztL3hensYS2HVCPMOcy4ECqHfmpdYpJ6pc0SDz7fq8q3veHPOOGa4/p.png" alt="Buy Me A Coffee Logo" vspace="5" hspace="5"></a><a href="https://www.paypal.com/donate/?hosted_button_id=Z88F3UEZB47SQ"><img width="160" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png" alt="PayPal Logo" vspace="5" hspace="5"></a>
+<a href="https://www.paypal.com/donate/?hosted_button_id=Z88F3UEZB47SQ"><img width="160" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-200px.png" alt="PayPal Logo" vspace="5" hspace="5"></a>
 
 ---
