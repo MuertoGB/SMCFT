@@ -21,7 +21,7 @@ Once the memory stick is ready, you can do any of the following:
 5. Under `Format Options`, select `Show advanced format options` and deselect `Create extended label and icon files`.
 6. Click the `START` button, Rufus will then do the rest for you.
 
-![](resource/img/rufus.jpg)
+![](resource/images/rufus.jpg)
 
 ---
 
@@ -33,7 +33,7 @@ Once the memory stick is ready, you can do any of the following:
 4. Click the `Browse` button and choose [SMCFT.img](https://github.com/MuertoGB/SMCFT/releases) as the media.
 5. Click the `Write` button, imageUSB will then do the rest for you.
 
-![](resource/img/imageusb.png)
+![](resource/images/imageusb.png)
 
 ---
 

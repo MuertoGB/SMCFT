@@ -1,6 +1,6 @@
 
 <h1 align="center">
-<img width="200" src="resource/img/icon256.png" alt="SMCFT Logo">
+<img width="200" src="resource/images/icon256.png" alt="SMCFT Logo">
 <br>
 SMC Flash Tool, formerly <a href="https://github.com/MuertoGB/SMCTool">SMCTool</a>.
 </h1>
